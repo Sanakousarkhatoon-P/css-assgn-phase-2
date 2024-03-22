@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Layout in CSS</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: rgb(231, 190, 196);
+            color: crimson;
+            padding: 10px;
+            text-align: center;
+        }
+        footer{
+            background-color: lightsalmon;
+            color: green;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+
+        }
+        .sana{
+            display: flex;
+            flex-direction: row;
+            flex-direction: wrap;
+
+        }
+        .sanakhan{
+            background-color: lightsteelblue;
+            padding: 20px;
+            width: 25%;
+
+        }
+        .content{
+            padding: 20px;
+            width: 75%;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <div class="sana">
+        <div class="sanakhan">
+            <h2>Sidebar</h2>
+            <p>A sidebar menu enhances website UX, offering vertical navigation. Utilizing HTML and CSS, it can be
+                customized and made responsive. An efficient sidebar simplifies navigation and provides quick access to
+                essential content.</p>
+        </div>
+
+        <div class="content">
+            <h2>Main Content</h2>
+            <p>The content CSS property replaces content with a generated value. It can be used to define what is
+                rendered
+                inside an element or pseudo-element. For elements, the content property specifies whether the element
+                renders normally (normal or none) or is replaced with an image (and associated "alt" text). For
+                pseudo-elements and margin boxes, content defines the content as images, text, both, or none, which
+                determines whether the element renders at all.</p>
+        </div>
+    </div>
+    <footer>
+        <p>Adding a footer at the bottom of the page with HTML and CSS is very straightforward. You can do it by giving
+            the
+        <div> element a class or id and then setting the position to absolute , setting the values of the bottom , and
+            left attributes to 0 .</p>
+    </footer>
+</body>
+
+</html>

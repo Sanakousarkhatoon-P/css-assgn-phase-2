@@ -1,0 +1,23 @@
+body{
+    background-color: lightyellow;
+}
+h2{
+    color: indigo;
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+h3{
+    color: brown;
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+ul{
+    color: saddlebrown;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: black;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

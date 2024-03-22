@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning Elements</title>
+    <style>
+        
+        
+        .relative{
+            width: 400px;
+            height: 200px;
+            background-color: lightseagreen;
+            position: relative;
+            border: 5px solid blue;
+        }
+        .absolute{
+            width: 200px;
+            height: 100px;
+            background-color: blue;
+            border: 5px solid greenyellow;
+            position: absolute;
+            top: 80px;
+            right: 0;
+        }
+        .fixed{
+            width: 300px;
+            border: 5px solid blue;
+            background-color: yellow;
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+        .sticky{
+            
+            background-color: orchid;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            padding: 5px;
+            border: 5px solid orangered;
+            
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    
+        <div class="relative"> This div element is Relative.</div>
+
+        <div class="absolute"> This div element is Absolute.</div>
+        <div class="fixed">This div element is Fixed.</div>
+        <div class="sticky">This div element is Sticky.</div>
+        <div style="padding-bottom: 2000px;"></div>
+    </div>
+    
+      <p>To create a sticky image using the Position Sticky approach in CSS, set “position: sticky;” on the image's CSS.
+        This makes the image stick to its container when scrolling, based on the specified offset or container bounds.</p>
+    
+</body>
+
+</html>
